@@ -1,0 +1,26 @@
+// Callback Functions in JavaScript
+// A callback function is a function that is passed as an argument to another function. 
+// This outer function then invokes the callback function at some point in its execution, 
+// typically when a specific event happens or a task is completed.
+// Example:
+setTimeout(function(){
+    console.log("2 sec pure hogaye");
+},2000);
+
+
+// first class function
+// in js there are first class function which means you can use function as a value.
+// Example:
+let x = function (){
+    console.log('I am a first Class function')
+};
+x();
+
+//or
+
+function abc(a){
+    a();
+};
+abc(function(){console.log("hello i am first order function");});
+
+//simplly you can treet function as a value of variable.
