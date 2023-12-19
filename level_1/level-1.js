@@ -135,5 +135,9 @@ var watch={
 }
 watch.alarm();
 console.log(watch);
+watch.size = "25mm";
+console.log(watch); // update
+delete watch.alarm; //delete
+console.log(watch);
 
 
