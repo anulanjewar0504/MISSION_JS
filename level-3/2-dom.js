@@ -28,7 +28,7 @@ Adding and Deleting Elements
     document.removeChild(element)	     |          Remove an HTML element
     document.appendChild(element)	     |          Add an HTML element
     document.replaceChild(new, old)	     |          Replace an HTML element
-    document.write(text)	                 |          Write into the HTML output stream
+    document.write(text)	             |          Write into the HTML output stream
 
 
 
